@@ -1,204 +1,915 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Vignesh Rahul E — Aspiring gML Engineer</title>
-<meta name="description" content="Portfolio of Vignesh Rahul E, Aspiring AI/ML Engineer — Python, Django, Machine Learning.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700;800&family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vignesh Rahul E | ML Engineer</title>
+
+    <meta name="description"
+        content="Vignesh Rahul E - Aspiring Machine Learning Engineer Portfolio">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
- 
-<header class="nav">
-  <div class="nav-inner">
-    <div class="brand"><span class="dot"></span> vignesh.dev</div>
-    <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">☰</button>
-    <nav class="links" id="navLinks">
-      <a href="#objective">objective</a>
-      <a href="#skills">skills</a>
-      <a href="#projects">projects</a>
-      <a href="#experience">experience</a>
-      <a href="#education">education</a>
-      <a href="#certs">certs</a>
-      <a href="#contact">contact</a>
-    </nav>
-  </div>
-</header>
- 
-<main class="wrap">
- 
-  <!-- HERO -->
-  <section class="hero" id="top">
-    <div class="terminal">
-      <div class="term-bar">
-        <span class="r"></span><span class="y"></span><span class="g"></span>
-        <span class="term-title">zsh — vignesh@portfolio</span>
-      </div>
-      <div class="term-body">
-        <div class="term-line"><span class="prompt">➜</span> <span class="cmd">git log --author="Vignesh Rahul E" --oneline -1</span></div>
-        <div class="term-line" id="typedLine"><span id="typed"></span><span class="cursor"></span></div>
-        <div class="hero-out">
-          <div class="hero-name">Vignesh Rahul E</div>
-          <div class="hero-role">Aspiring AI/ML Engineer</div>
-          <div class="hero-contacts">
-            <a href="tel:8667053190">📞 8667053190</a>
-            <a href="mailto:vigneshe6766@gmail.com">✉️ vigneshe6766@gmail.com</a>
-            <span>📍 Coimbatore, Tamil Nadu</span>
-            <a href="https://linkedin.com/in/vignesh-rahul-a6496432a" target="_blank" rel="noopener">🔗 LinkedIn</a>
-            <a href="https://github.com/vignesh-developer6766" target="_blank" rel="noopener">🐙 GitHub</a>
-          </div>
-          <div class="hero-cta">
-            <a class="btn btn-primary" href="mailto:vigneshe6766@gmail.com">Send a message</a>
-            <a class="btn btn-ghost" href="#projects">git checkout projects</a>
-          </div>
+
+    <!-- ================= NAVBAR ================= -->
+
+    <header class="navbar">
+
+        <div class="nav-container">
+
+            <a href="#home" class="logo">
+                <span class="logo-box">V</span>
+                <span>vignesh<span class="logo-blue">.ai</span></span>
+            </a>
+
+            <nav class="nav-links" id="navLinks">
+
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#journey" class="nav-link">Journey</a>
+                <a href="#contact" class="nav-link">Contact</a>
+
+            </nav>
+
+            <a href="#contact" class="talk-button">
+                Let's Talk
+                <i class="fa-solid fa-paper-plane"></i>
+            </a>
+
+            <button type="button" class="menu-button" id="menuButton" aria-label="Toggle navigation menu">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+
         </div>
-      </div>
-    </div>
-  </section>
- 
-  <!-- OBJECTIVE -->
-  <section id="objective">
-    <div class="sec-head reveal"><span class="sec-hash">#01</span><h2 class="sec-title">Career Objective</h2></div>
-    <div class="readme reveal">
-      <div class="readme-file">📄 README.md</div>
-      <p><span class="em">Aspiring AI/ML Engineer</span> with hands-on experience in Python to build innovative AI and Machine Learning solutions. Seeking an opportunity to apply technical knowledge, enhance skills, and contribute effectively to a dynamic and growth-oriented organization.</p>
-    </div>
-  </section>
- 
-  <!-- SKILLS -->
-  <section id="skills">
-    <div class="sec-head reveal"><span class="sec-hash">#02</span><h2 class="sec-title">Technical Skills</h2></div>
-    <div class="skill-grid">
-      <div class="skill-block reveal">
-        <h4>Programming Languages</h4>
-        <div class="tag-row"><span class="tag">Python</span></div>
-      </div>
-      <div class="skill-block reveal">
-        <h4>Web Framework</h4>
-        <div class="tag-row"><span class="tag">Django</span></div>
-      </div>
-      <div class="skill-block reveal">
-        <h4>Core AI / ML</h4>
-        <div class="tag-row"><span class="tag">Machine Learning Fundamentals</span></div>
-      </div>
-      <div class="skill-block reveal">
-        <h4>Version Control</h4>
-        <div class="tag-row"><span class="tag">Git</span><span class="tag">GitHub</span></div>
-      </div>
-      <div class="skill-block reveal">
-        <h4>Tools &amp; IDEs</h4>
-        <div class="tag-row"><span class="tag">Google Colab</span><span class="tag">VS Code</span></div>
-      </div>
-      <div class="skill-block reveal">
-        <h4>Soft Skills</h4>
-        <div class="tag-row">
-          <span class="tag">Problem Solving</span><span class="tag">Analytical Thinking</span>
-          <span class="tag">Communication</span><span class="tag">Teamwork</span><span class="tag">Adaptability</span>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section class="hero" id="home">
+
+        <div class="hero-container">
+
+            <!-- PHOTO -->
+
+            <div class="hero-photo reveal">
+
+                <div class="photo-glow"></div>
+
+                <div class="photo-circle">
+
+                    <img src="vignesh.jpg"
+                        alt="Vignesh Rahul E">
+
+                </div>
+
+                <!-- Floating icons -->
+
+                <div class="floating-icon icon-ai">
+                    <i class="fa-solid fa-brain"></i>
+                </div>
+
+                <div class="floating-icon icon-code">
+                    <i class="fa-solid fa-code"></i>
+                </div>
+
+                <div class="floating-icon icon-chart">
+                    <i class="fa-solid fa-chart-line"></i>
+                </div>
+
+                <!-- Availability -->
+
+                <div class="availability">
+
+                    <span class="online-dot"></span>
+
+                    Open to opportunities
+
+                </div>
+
+            </div>
+
+
+            <!-- HERO CONTENT -->
+
+            <div class="hero-content reveal">
+
+                <div class="role-badge">
+
+                    <span></span>
+
+                    ASPIRING ML ENGINEER
+
+                </div>
+
+                <p class="hello">
+                    Hello, I'm
+                </p>
+
+                <h1>
+                    Vignesh
+                    <span>Rahul E.</span>
+                </h1>
+
+                <h2>
+                    I build solutions with
+                    <strong>Machine Learning.</strong>
+                </h2>
+
+                <p class="hero-description">
+
+                    Passionate about solving real-world problems
+                    using Python, Machine Learning and modern
+                    development technologies.
+
+                </p>
+
+                <div class="hero-buttons">
+
+                    <a href="#projects" class="primary-button">
+
+                        Explore My Work
+
+                        <i class="fa-solid fa-arrow-right"></i>
+
+                    </a>
+
+                    <a href="#contact" class="secondary-button">
+
+                        Let's Connect
+
+                        <i class="fa-solid fa-user-plus"></i>
+
+                    </a>
+
+                </div>
+
+                <div class="hero-info">
+
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                        Coimbatore, Tamil Nadu
+                    </div>
+
+                    <div>
+                        <i class="fa-solid fa-graduation-cap"></i>
+                        B.E CSE · 3rd Year
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
-      </div>
-    </div>
-  </section>
- 
-  <!-- PROJECTS -->
-  <section id="projects">
-    <div class="sec-head reveal"><span class="sec-hash">#03</span><h2 class="sec-title">Projects</h2></div>
- 
-    <div class="commit reveal">
-      <div class="commit-meta"><span class="hash">#a1e9c02</span><span>feat: e-learning-platform</span></div>
-      <div class="commit-title">E-Learning Platform</div>
-      <div class="diff-line add"><span class="sym">+</span><span>Developed a full-stack online learning platform with user authentication and course management.</span></div>
-      <div class="diff-line add"><span class="sym">+</span><span>Built using Django's MVT architecture enabling scalable content delivery and admin control.</span></div>
-      <div class="proj-tech"><span>Django</span><span>Python</span><span>MVT Architecture</span><span>Auth</span></div>
-    </div>
- 
-    <div class="commit reveal">
-      <div class="commit-meta"><span class="hash">#f27b13d</span><span>feat: mapmymood</span></div>
-      <div class="commit-title">MapMyMood — Tourism-Based Mood Tracking App</div>
-      <div class="diff-line add"><span class="sym">+</span><span>Built a web application mapping user moods to personalised travel destinations using Django.</span></div>
-      <div class="diff-line add"><span class="sym">+</span><span>Designed dynamic database models for mood-location data and an interactive UI for user experience.</span></div>
-      <div class="proj-tech"><span>Django</span><span>Python</span><span>Database Modeling</span><span>UI/UX</span></div>
-    </div>
-  </section>
- 
-  <!-- EXPERIENCE -->
-  <section id="experience">
-    <div class="sec-head reveal"><span class="sec-hash">#04</span><h2 class="sec-title">Internship Experience</h2></div>
-    <div class="commit reveal">
-      <div class="commit-meta"><span class="hash">#8c40aa1</span><span>merged → main</span></div>
-      <div class="commit-title">Machine Learning Intern</div>
-      <div class="commit-sub">Techvolt Software Pvt. Ltd.</div>
-      <div class="diff-line add"><span class="sym">+</span><span>Gained hands-on exposure to Machine Learning fundamentals and real-world ML workflows.</span></div>
-      <div class="diff-line add"><span class="sym">+</span><span>Worked on data preprocessing, feature engineering, and supervised learning model building.</span></div>
-    </div>
-  </section>
- 
-  <!-- EDUCATION -->
-  <section id="education">
-    <div class="sec-head reveal"><span class="sec-hash">#05</span><h2 class="sec-title">Education</h2></div>
-    <div class="commit reveal">
-      <div class="commit-meta"><span class="hash">#branch:main</span><span>2022 — present</span></div>
-      <div class="commit-title">Bachelor of Engineering (B.E.) — Computer Science and Engineering</div>
-      <div class="commit-sub">Dr. N.G.P Institute of Technology, Coimbatore</div>
-      <div class="edu-cgpa">🎓 CGPA: 7.65</div>
-    </div>
-  </section>
- 
-  <!-- STRENGTHS / GROWTH -->
-  <section id="strengths">
-    <div class="sec-head reveal"><span class="sec-hash">#06</span><h2 class="sec-title">Strengths &amp; Growth Areas</h2></div>
-    <div class="two-col">
-      <div class="col-card strengths reveal">
-        <h4>+ strengths.diff</h4>
-        <div class="diff-line add"><span class="sym">+</span><span>Quick Learner — grasps new technologies and concepts rapidly.</span></div>
-        <div class="diff-line add"><span class="sym">+</span><span>Problem Solver — strong analytical approach to challenges.</span></div>
-        <div class="diff-line add"><span class="sym">+</span><span>Team Player — collaborative mindset, effective communication.</span></div>
-        <div class="diff-line add"><span class="sym">+</span><span>Detail-Oriented — focused on accuracy and quality.</span></div>
-        <div class="diff-line add"><span class="sym">+</span><span>Adaptable — quick to adapt to new tools and frameworks.</span></div>
-      </div>
-      <div class="col-card growth reveal">
-        <h4>~ in-progress.diff</h4>
-        <div class="diff-line mod"><span class="sym">~</span><span>Working on structured decision-making to avoid overthinking complex problems.</span></div>
-        <div class="diff-line mod"><span class="sym">~</span><span>Improving public speaking through technical presentations and group discussions.</span></div>
-      </div>
-    </div>
-  </section>
- 
-  <!-- CERTS -->
-  <section id="certs">
-    <div class="sec-head reveal"><span class="sec-hash">#07</span><h2 class="sec-title">Certifications</h2></div>
-    <div class="pill-list reveal">
-      <div class="pill"><span class="badge">✔</span> Python Programming Certification — HCL GUVI</div>
-      <div class="pill"><span class="badge">✔</span> Django Web Development Certification — Phinesphere</div>
-      <div class="pill"><span class="badge">✔</span> Machine Learning Internship Certification — Techvolt Software Pvt. Ltd.</div>
-    </div>
-  </section>
- 
-  <!-- LANGUAGES -->
-  <section id="languages">
-    <div class="sec-head reveal"><span class="sec-hash">#08</span><h2 class="sec-title">Languages Known</h2></div>
-    <div class="lang-row reveal">
-      <span class="lang-chip">English</span>
-      <span class="lang-chip">Tamil</span>
-    </div>
-  </section>
- 
-</main>
- 
-<footer id="contact">
-  <div class="sig reveal"><span class="add-sym">+</span> Open to opportunities — let's build something.</div>
-  <div class="footer-links reveal">
-    <a href="mailto:vigneshe6766@gmail.com">vigneshe6766@gmail.com</a>
-    <a href="tel:8667053190">8667053190</a>
-    <a href="https://linkedin.com/in/vignesh-rahul-a6496432a" target="_blank" rel="noopener">LinkedIn</a>
-    <a href="https://github.com/vignesh-developer6766" target="_blank" rel="noopener">GitHub</a>
-  </div>
-  <div class="copyline">© 2026 Vignesh Rahul E · built with HTML, CSS &amp; JavaScript</div>
-</footer>
- 
-<script src="script.js"></script>
- 
+
+    </section>
+
+
+    <!-- ================= ABOUT + TOOLKIT ================= -->
+
+    <section class="about-section" id="about">
+
+        <div class="about-container">
+
+            <!-- ABOUT -->
+
+            <div class="about-content reveal">
+
+                <div class="section-mini-title">
+                    <i class="fa-solid fa-user"></i>
+                    About Me
+                </div>
+
+                <p>
+                    I am an aspiring Machine Learning Engineer
+                    who enjoys turning ideas into practical
+                    technology solutions.
+                </p>
+
+                <p>
+                    Currently pursuing my B.E. in Computer Science
+                    and Engineering at Dr. N.G.P. Institute of
+                    Technology, Coimbatore.
+                </p>
+
+                <p>
+                    I am continuously building my knowledge in
+                    Python, Machine Learning, Django and backend
+                    development through hands-on projects.
+                </p>
+
+                <a href="#journey" class="small-button">
+                    Know More About Me
+                    <i class="fa-solid fa-circle-arrow-right"></i>
+                </a>
+
+            </div>
+
+
+            <!-- TOOLKIT -->
+
+            <div class="toolkit reveal">
+
+                <div class="section-mini-title">
+                    <i class="fa-solid fa-cube"></i>
+                    My Toolkit
+                </div>
+
+                <div class="toolkit-grid">
+
+                    <div class="tool">
+                        <i class="fa-brands fa-python python"></i>
+                        <strong>Python</strong>
+                    </div>
+
+                    <div class="tool">
+                        <i class="fa-solid fa-brain ml"></i>
+                        <strong>Machine<br>Learning</strong>
+                    </div>
+
+                    <div class="tool">
+                        <i class="fa-solid fa-layer-group django"></i>
+                        <strong>Django</strong>
+                    </div>
+
+                    <div class="tool">
+                        <i class="fa-solid fa-flask flask"></i>
+                        <strong>Flask</strong>
+                    </div>
+
+                    <div class="tool">
+                        <i class="fa-brands fa-git-alt git"></i>
+                        <strong>Git</strong>
+                    </div>
+
+                    <!-- CLICKABLE GITHUB -->
+
+                    <a href="https://github.com/vignesh-developer6766"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        class="tool clickable-tool">
+
+                        <i class="fa-brands fa-github github"></i>
+
+                        <strong>GitHub</strong>
+
+                    </a>
+
+                    <div class="tool">
+                        <i class="fa-solid fa-microchip aiml"></i>
+                        <strong>AIML</strong>
+                    </div>
+
+                    <div class="tool">
+                        <i class="fa-solid fa-code problem"></i>
+                        <strong>Problem<br>Solving</strong>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="projects-section" id="projects">
+
+        <div class="main-container">
+
+            <div class="section-title reveal">
+
+                <i class="fa-solid fa-briefcase"></i>
+
+                <h2>My Projects</h2>
+
+            </div>
+
+
+            <div class="projects-grid">
+
+
+                <!-- PROJECT 1 -->
+
+                <div class="project-card expense reveal">
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-wallet"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            01
+                        </span>
+
+                        <h3>
+                            Expense Sharing App
+                        </h3>
+
+                        <div class="project-tech">
+                            Python · Flask · AIML
+                        </div>
+
+                        <p>
+                            A Python-based expense sharing application
+                            designed to help users manage and share
+                            expenses in an organized way.
+                        </p>
+
+                        <div class="project-buttons">
+
+                            <a href="#contact" class="project-button">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <!-- GITHUB LINK -->
+
+                            <a href="https://github.com/vignesh-developer6766"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="github-project"
+                                title="GitHub Profile">
+
+                                <i class="fa-brands fa-github"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJECT 2 -->
+
+                <div class="project-card mood reveal">
+
+                    <div class="project-icon">
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+
+                    <div class="project-content">
+
+                        <span class="project-number">
+                            02
+                        </span>
+
+                        <h3>
+                            MapMyMood
+                        </h3>
+
+                        <div class="project-tech">
+                            Tourism · Django
+                        </div>
+
+                        <p>
+                            A tourism-based project that connects
+                            user moods with travel destinations
+                            and experiences.
+                        </p>
+
+                        <div class="project-buttons">
+
+                            <a href="#contact" class="project-button">
+                                View Project
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+
+                            <a href="https://github.com/vignesh-developer6766"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                                class="github-project"
+                                title="GitHub Profile">
+
+                                <i class="fa-brands fa-github"></i>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= JOURNEY ================= -->
+
+    <section class="journey-section" id="journey">
+
+        <div class="main-container">
+
+            <div class="section-title reveal">
+
+                <i class="fa-solid fa-chart-simple"></i>
+
+                <h2>My Journey</h2>
+
+            </div>
+
+
+            <div class="journey-line">
+
+
+                <!-- EDUCATION -->
+
+                <div class="journey-item reveal">
+
+                    <div class="journey-icon blue">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <h3>
+                            B.E CSE - 3rd Year
+                        </h3>
+
+                        <p>
+                            Dr. N.G.P. Institute of Technology,
+                            Coimbatore
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PYTHON -->
+
+                <div class="journey-item reveal">
+
+                    <div class="journey-icon green">
+                        <i class="fa-solid fa-certificate"></i>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <h3>
+                            Python Programming
+                        </h3>
+
+                        <strong>
+                            HCL GUVI
+                        </strong>
+
+                        <p>
+                            Python programming certification.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- DJANGO -->
+
+                <div class="journey-item reveal">
+
+                    <div class="journey-icon purple">
+                        <i class="fa-solid fa-code"></i>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <h3>
+                            Full Stack Python
+                        </h3>
+
+                        <strong>
+                            Using Django
+                        </strong>
+
+                        <p>
+                            Full stack development using
+                            Python and Django.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- ACHIEVEMENT -->
+
+                <div class="journey-item reveal">
+
+                    <div class="journey-icon orange">
+                        <i class="fa-solid fa-trophy"></i>
+                    </div>
+
+                    <div class="journey-card">
+
+                        <h3>
+                            Paper Presentation
+                        </h3>
+
+                        <strong>
+                            CGT College
+                        </strong>
+
+                        <p>
+                            Participated in paper presentation
+                            activities at CGT College, Coimbatore.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SOCIAL PROFILES ================= -->
+
+    <section class="social-section">
+
+        <div class="main-container">
+
+            <div class="social-heading reveal">
+
+                <p>
+                    CONNECT WITH ME
+                </p>
+
+                <h2>
+                    Find me online.
+                </h2>
+
+            </div>
+
+
+            <div class="social-grid">
+
+
+                <!-- LINKEDIN -->
+
+                <a href="https://www.linkedin.com/in/vignesh-rahul-e-a6496432a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-card linkedin-card reveal">
+
+                    <div class="social-icon linkedin">
+                        <i class="fa-brands fa-linkedin-in"></i>
+                    </div>
+
+                    <div class="social-text">
+
+                        <span>
+                            PROFESSIONAL PROFILE
+                        </span>
+
+                        <h3>
+                            LinkedIn
+                        </h3>
+
+                        <p>
+                            Connect with me professionally
+                        </p>
+
+                    </div>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+
+                </a>
+
+
+                <!-- GITHUB -->
+
+                <a href="https://github.com/vignesh-developer6766"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-card github-card reveal">
+
+                    <div class="social-icon github-social">
+                        <i class="fa-brands fa-github"></i>
+                    </div>
+
+                    <div class="social-text">
+
+                        <span>
+                            SOURCE CODE
+                        </span>
+
+                        <h3>
+                            GitHub
+                        </h3>
+
+                        <p>
+                            Explore my projects and repositories
+                        </p>
+
+                    </div>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+
+                </a>
+
+
+                <!-- HACKERRANK -->
+
+                <a href="#"
+                    id="hackerrankLink"
+                    class="social-card hackerrank-card reveal">
+
+                    <div class="social-icon hackerrank">
+                        <i class="fa-brands fa-hackerrank"></i>
+                    </div>
+
+                    <div class="social-text">
+
+                        <span>
+                            CODING PRACTICE
+                        </span>
+
+                        <h3>
+                            HackerRank
+                        </h3>
+
+                        <p>
+                            View my coding practice profile
+                        </p>
+
+                    </div>
+
+                    <i class="fa-solid fa-arrow-up-right-from-square external-icon"></i>
+
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-section" id="contact">
+
+        <div class="main-container contact-container">
+
+            <div class="contact-left reveal">
+
+                <p class="contact-small">
+                    LET'S CONNECT
+                </p>
+
+                <h2>
+                    Let's build something
+                    <span>useful.</span>
+                </h2>
+
+                <p>
+                    I'm open to learning opportunities,
+                    internships and entry-level roles
+                    related to Machine Learning and AI.
+                </p>
+
+                <a href="mailto:vigneshe6766@gmail.com"
+                    class="contact-button">
+
+                    Send me an Email
+
+                    <i class="fa-solid fa-arrow-right"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="contact-right reveal">
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-envelope"></i>
+
+                    <div>
+
+                        <span>Email</span>
+
+                        <a href="mailto:vigneshe6766@gmail.com">
+                            vigneshe6766@gmail.com
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-phone"></i>
+
+                    <div>
+
+                        <span>Phone</span>
+
+                        <a href="tel:+918667053190">
+                            +91 8667053190
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="contact-item">
+
+                    <i class="fa-solid fa-location-dot"></i>
+
+                    <div>
+
+                        <span>Location</span>
+
+                        <p>
+                            Coimbatore, Tamil Nadu
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+
+        <div class="footer-container">
+
+
+            <div class="footer-brand">
+
+                <div class="footer-logo">
+
+                    <span>V</span>
+
+                    vignesh<span>.ai</span>
+
+                </div>
+
+                <p>
+                    Aspiring Machine Learning Engineer
+                    building intelligent solutions.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h4>
+                    Quick Links
+                </h4>
+
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#journey">Journey</a>
+                <a href="#contact">Contact</a>
+
+            </div>
+
+
+            <div class="footer-social">
+
+                <h4>
+                    Connect With Me
+                </h4>
+
+
+                <!-- LINKEDIN -->
+
+                <a href="https://www.linkedin.com/in/vignesh-rahul-e-a6496432a?utm_source=share_via&utm_content=profile&utm_medium=member_android"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-linkedin"></i>
+
+                    LinkedIn
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+
+                <!-- GITHUB -->
+
+                <a href="https://github.com/vignesh-developer6766"
+                    target="_blank"
+                    rel="noopener noreferrer">
+
+                    <i class="fa-brands fa-github"></i>
+
+                    GitHub
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+
+                <!-- HACKERRANK -->
+
+                <a href="#"
+                    id="footerHackerRank">
+
+                    <i class="fa-brands fa-hackerrank"></i>
+
+                    HackerRank
+
+                    <i class="fa-solid fa-arrow-up-right-from-square"></i>
+
+                </a>
+
+            </div>
+
+
+            <div class="footer-contact">
+
+                <h4>
+                    Let's Connect
+                </h4>
+
+                <a href="mailto:vigneshe6766@gmail.com">
+                    <i class="fa-solid fa-envelope"></i>
+                    vigneshe6766@gmail.com
+                </a>
+
+                <a href="tel:+918667053190">
+                    <i class="fa-solid fa-phone"></i>
+                    +91 8667053190
+                </a>
+
+                <p>
+                    <i class="fa-solid fa-location-dot"></i>
+                    Coimbatore, Tamil Nadu
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            <span>
+                © 2026 Vignesh Rahul E. All rights reserved.
+            </span>
+
+            <span>
+                Made with ❤️ and lots of ☕
+            </span>
+
+        </div>
+
+    </footer>
+
+
+    <!-- JavaScript -->
+
+    <script src="script.js"></script>
+
 </body>
+
 </html>
