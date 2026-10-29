@@ -1,5 +1,5 @@
 import React from 'react';
-import { ArrowRight, FileDown, ExternalLink, Sparkles, Terminal, Cpu } from 'lucide-react';
+import { ArrowRight, FileDown, ExternalLink } from 'lucide-react';
 import { profileData } from '../data/portfolioData';
 
 export default function Hero() {
@@ -86,35 +86,17 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right Column: Profile Image & Tech Labels */}
+          {/* Right Column: Profile Image */}
           <div className="hero-visual-wrapper">
             <div className="hero-photo-container">
-              <div className="hero-photo-inner">
-                <img
-                  src={profileData.profileImage}
-                  alt="Vignesh Rahul E. - Aspiring Machine Learning Engineer"
-                  className="hero-photo-img"
-                  width="320"
-                  height="320"
-                  fetchPriority="high"
-                />
-              </div>
-
-              {/* Floating Tech Chips */}
-              <div className="hero-tech-badge hero-tech-badge-1" aria-hidden="true">
-                <Terminal size={16} color="#2563eb" />
-                <span>Python</span>
-              </div>
-
-              <div className="hero-tech-badge hero-tech-badge-2" aria-hidden="true">
-                <Sparkles size={16} color="#7c3aed" />
-                <span>Machine Learning</span>
-              </div>
-
-              <div className="hero-tech-badge hero-tech-badge-3" aria-hidden="true">
-                <Cpu size={16} color="#059669" />
-                <span>Scikit-learn</span>
-              </div>
+              <img
+                src={profileData.profileImage}
+                alt="Vignesh Rahul E. - Aspiring Machine Learning Engineer"
+                className="hero-photo-img"
+                width="340"
+                height="340"
+                fetchPriority="high"
+              />
             </div>
           </div>
         </div>
