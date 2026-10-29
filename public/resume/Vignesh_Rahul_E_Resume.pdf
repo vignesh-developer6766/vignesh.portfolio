@@ -1,0 +1,145 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R] /Count 1 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /MediaBox [0 0 612 792] /Contents 4 0 R /Resources << /Font << /F1 5 0 R /F2 6 0 R >> >> >>
+endobj
+4 0 obj
+<< /Length 3335 >>
+stream
+BT
+/F2 22 Tf
+54 740 Td
+(VIGNESH RAHUL E.) Tj
+/F2 13 Tf
+0 -24 Td
+(Aspiring Machine Learning Engineer) Tj
+/F1 9.5 Tf
+0 -18 Td
+(Coimbatore, Tamil Nadu, India | +91 8667053190 | vigneshe6766@gmail.com) Tj
+/F1 9.5 Tf
+0 -14 Td
+(GitHub: github.com/vignesh-developer6766 | LinkedIn: linkedin.com/in/vignesh-rahul-e-a6496432a) Tj
+/F2 11 Tf
+0 -24 Td
+(PROFESSIONAL SUMMARY) Tj
+/F1 9.5 Tf
+0 -15 Td
+(Computer Science and Engineering student passionate about Machine Learning, Python development, and) Tj
+/F1 9.5 Tf
+0 -13 Td
+(building practical AI-powered applications. Experienced in developing full-stack web solutions combining) Tj
+/F1 9.5 Tf
+0 -13 Td
+(machine learning algorithms with clean user interfaces and real-world problem-solving.) Tj
+/F2 11 Tf
+0 -22 Td
+(EDUCATION) Tj
+/F2 9.5 Tf
+0 -15 Td
+(Bachelor of Engineering in Computer Science and Engineering \(2024 - 2028 | Ongoing\)) Tj
+/F1 9.5 Tf
+0 -13 Td
+(Dr. N.G.P. Institute of Technology, Coimbatore, Tamil Nadu) Tj
+/F2 11 Tf
+0 -22 Td
+(TECHNICAL SKILLS) Tj
+/F1 9.5 Tf
+0 -15 Td
+(Programming Languages: Python, SQL, JavaScript, HTML5, CSS3) Tj
+/F1 9.5 Tf
+0 -13 Td
+(Machine Learning & Data: Machine Learning, NumPy, Pandas, Scikit-learn, TF-IDF, Naive Bayes) Tj
+/F1 9.5 Tf
+0 -13 Td
+(Frameworks & Backend: Flask, Django, FastAPI, RESTful APIs, SQLite) Tj
+/F1 9.5 Tf
+0 -13 Td
+(Developer Tools: Git, GitHub, Docker, Google Colab, VS Code) Tj
+/F2 11 Tf
+0 -22 Td
+(EXPERIENCE) Tj
+/F2 9.5 Tf
+0 -15 Td
+(Machine Learning Intern | Techvolt Pvt. Ltd. \(15 Days\)) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Gained practical exposure to end-to-end data preprocessing pipelines and feature engineering.) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Studied model training, validation techniques, and evaluation metrics using Python and Scikit-learn.) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Strengthened core Python programming and algorithmic problem-solving abilities.) Tj
+/F2 11 Tf
+0 -22 Td
+(FEATURED PROJECTS) Tj
+/F2 9.5 Tf
+0 -15 Td
+(ExpenseShare AI - AI-Powered Expense Management & Analytics Web Application) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Engineered an expense sharing web platform with user authentication, group splitting, and debt graph simplification.) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Implemented an ML categorization pipeline using TF-IDF vectorization and Naive Bayes classifier.) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Integrated optical character recognition \(OCR\) with Pytesseract for receipt bill text extraction.) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Built interactive analytics dashboards visualizing 6-month spending trends and budget anomalies.) Tj
+/F1 9 Tf
+0 -12 Td
+(- Tech Stack: Python, Flask, SQLite, Scikit-learn, Pandas, Bootstrap 5, Chart.js) Tj
+/F2 9.5 Tf
+0 -15 Td
+(EstateVal AI - House Price Prediction Engine) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Built real estate valuation ML application with Gradient Boosting Regressor and interactive REST API.) Tj
+/F1 9 Tf
+0 -12 Td
+(- Tech Stack: Python, Flask, Scikit-Learn, NumPy, HTML/CSS) Tj
+/F2 11 Tf
+0 -22 Td
+(CERTIFICATIONS & ACTIVITIES) Tj
+/F1 9.5 Tf
+0 -15 Td
+(- Full Stack with Python and Django Certification - Pinesphere Solutions) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Machine Learning Internship Certification - Techvolt Pvt. Ltd.) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- 24-Hour Hackathon Participant - SNS College of Technology, Coimbatore) Tj
+/F1 9.5 Tf
+0 -13 Td
+(- Academic Paper Presentation Participant - CGT College, Coimbatore) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+6 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold >>
+endobj
+xref
+0 7
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000115 00000 n 
+0000000251 00000 n 
+0000003637 00000 n 
+0000003707 00000 n 
+trailer
+<< /Size 7 /Root 1 0 R >>
+startxref
+3782
+%%EOF
